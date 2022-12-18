@@ -5,4 +5,5 @@ from book import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('search/', views.post_search, name='post_search'),
+    path('close/',views.get_close,name='close')
 ]
